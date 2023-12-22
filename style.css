@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+    /* MENU DE NAVIGATION */
+
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+header h1 a{
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header ul  li{
+    padding: 10px;
+    position: relative;
+}
+header ul li a{
+    text-decoration: none;
+}
+header ul li:hover .muD{
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: -100px;
+    box-shadow: 0px 0px 5px black;
+}
+header .muD ul{
+    display: block;
+}
+header .muD ul li{
+    width: 210px;
+}
+header .muD{
+    display: none;
+}
+    /* MENU BODY */
+
+ .main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+}
+.main3{
+   display: flex;
+   justify-content: center;
+   color: white;
+   gap: 20px;
+}
+.smain1{background: gray;}
+.smain2{background: blue;}
+.smain3{background: black;}
+.smain1, .smain2, .smain3{
+    border-radius: 5px;
+    padding: 40px;
+}
+.main4{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lien2 a{
+    text-decoration: none;
+    margin: 34px;
+    line-height: 30px;
+}
+.sec1{
+    background-image: url("./Docplanner.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.sec1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+}
+.b2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50%;
+}
+.le1, .le2, .le3, .le4{
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
